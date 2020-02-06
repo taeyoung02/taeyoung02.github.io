@@ -32,7 +32,7 @@ categories: python
    
 이제 채팅서버를 만들어보겠습니다.   
 socketserver를 import하고 채팅서버를 만들기위한 외장 함수들을 사용하겠습니다.   
-![carbon (3)](https://user-images.githubusercontent.com/49622935/73944735-6cc2f880-4936-11ea-9302-27bfe6c258e1.png)
+![carbon (6)](https://user-images.githubusercontent.com/49622935/73948532-73ed0500-493c-11ea-924f-06893532d260.png)
    
    
 클라이언트 입니다   

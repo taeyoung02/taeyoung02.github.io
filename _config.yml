@@ -89,7 +89,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : ![]({{ site.url }}{{ site.baseurl }}/assets/images/before-sunrise.jpeg    )# Open Graph/Twitter default site image
+og_image                 : "/assets/images/before-sunrise.jpeg"# Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

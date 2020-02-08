@@ -19,9 +19,9 @@ locale                   : "en-US"
 title                    : "홍익대학교 컴퓨터공학과 윤태영"
 title_separator          : "-"
 subtitle                 : "Algorithm, ML, Data"
-name                     : YOON TAE YOUNG
-description              : Daily records.
-url                      : "https://taeyoung02.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "YOON TAE YOUNG"
+description              : "My Daily records of programming."
+url                      : <{{ site.url }}{{ site.baseurl }}/blog/start-blog/># the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"

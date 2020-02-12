@@ -25,7 +25,7 @@ url                      : <{{ site.url }}{{ site.baseurl }}/blog/start-blog/># 
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/before-sunrise.jpg"# path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/before-sunrise.jpg"# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "YOON TAE YOUNG"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "공부안하는 시간만큼 뒤쳐진다"
+  bio              : "자는 시간에도 경쟁자들은 공부하고 있다"
   location         : "south-korea"
   email            : "dhrmsry777@naver.com"
   links:

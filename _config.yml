@@ -76,8 +76,7 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
-disqus_url : http://disqus.com/by/taeyoung02
-disqus_id : taeyoung02
+disqus_shortname: 'taeyoung02'
 # SEO Related
 google_site_verification :
 bing_site_verification   :

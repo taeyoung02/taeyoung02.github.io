@@ -1,2 +1,1 @@
-{% assign dateformat = site.data.format[site.locale]."%Y년 %m월 %d일" | default: "%B %d, %Y" %}
-{% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: dateformat }}">{% endif %}
+{{ site.data.ui-text[site.locale].less_than | default: "%B %d, %Y" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}

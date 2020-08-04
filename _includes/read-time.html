@@ -1,3 +1,3 @@
 {% for post in page.posts %}
-  <h5>Posted on</h5>
+  {{ post.created|date:"Y-m-d" }}
 {% endfor %}

@@ -1,1 +1,2 @@
-{{ site.data.ui-text[site.locale].less_than | default: "Updated" }} {{ page.date | date: "%B %-d, %Y" }}
+{% assign dateformat = site.data.format[site.locale]."%Y년 %m월 %d일" | default: "%B %d, %Y" %}
+{% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: dateformat }}">{% endif %}

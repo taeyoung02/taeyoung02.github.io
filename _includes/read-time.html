@@ -1,1 +1,3 @@
-{{ site.data.ui-text[site.locale].less_than | default: "%B %d, %Y" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
+{% if post.date %}
+    <span class="page__date"><i class="far fa-clock" aria-hidden="true"></i>{{ post.date | date: "%Y-%M-%d" }}</span>
+{% endif %}

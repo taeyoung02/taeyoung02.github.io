@@ -58,7 +58,7 @@ staticman:
     date:
       type               : # "date"
       options:
-        format           : {{ page.date | date_to_long_string }}
+        format           :
   endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
   siteKey                :

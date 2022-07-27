@@ -34,7 +34,7 @@ s.setAttribute('data-timestamp', +new Date());
   {% endfor %}
 </ul>
 
-{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date |date: "%m/%d/%Y"' %}
+{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%m/%d/%Y"' %}
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>

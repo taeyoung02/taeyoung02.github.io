@@ -24,7 +24,7 @@ s.setAttribute('data-timestamp', +new Date());
                             
 
 <ul class="taxonomy__index">
-  {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y-%M-%D"' %}
   {% for year in postsInYear %}
     <li>
       <a href="#{{ year.name }}">
@@ -34,7 +34,7 @@ s.setAttribute('data-timestamp', +new Date());
   {% endfor %}
 </ul>
 
-{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y-%M-%D"' %}
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
